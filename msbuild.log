@@ -1,0 +1,576 @@
+Build started 05/02/2018 11:03:56.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+ANDROID_HOME = C:\Users\n.pimley\AppData\Local\Android\sdk
+APPDATA = C:\Users\n.pimley\AppData\Roaming
+ChocolateyInstall = C:\ProgramData\chocolatey
+ChocolateyLastPathUpdate = Tue Sep  5 12:12:57 2017
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = A00003
+ComSpec = C:\WINDOWS\system32\cmd.exe
+config = Release
+FP_NO_HOST_CHECK = NO
+FSHARPINSTALLDIR = C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\
+GOROOT = C:\Go\
+HOMEDRIVE = U:
+HOMEPATH = \
+HOMESHARE = \\fileserver\users\n.pimley
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_144
+LOCALAPPDATA = C:\Users\n.pimley\AppData\Local
+LOGONSERVER = \\ORWE9-L-DOM03
+MSBuildLoadMicrosoftTargetsReadOnly = true
+nuget = nuget
+NUMBER_OF_PROCESSORS = 8
+OneDrive = C:\Users\n.pimley\OneDrive
+OS = Windows_NT
+Path = C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Git\cmd;C:\Program Files\Redis\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Amazon\AWSCLI\;C:\Program Files\Java\apache-maven-3.5.0\bin;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files\nodejs\;C:\Go\bin;C:\Program Files (x86)\Yarn\bin;C:\gradle\gradle-4.3.1\bin;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Users\n.pimley\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\n.pimley\AppData\Roaming\npm;C:\Users\n.pimley\source\repos\flutter\bin;C:\Users\n.pimley\AppData\Local\Programs\Fiddler;C:\Users\n.pimley\AppData\Local\Yarn\bin;C:\apache-maven\apache-maven-3.5.2\bin;C:\Program Files\Heroku\bin
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3c03
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PROMPT = $P$G
+PSModulePath = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\;C:\Program Files\WindowsPowerShell\Modules\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\Storage\
+PUBLIC = C:\Users\Public
+SystemDrive = C:
+SystemRoot = C:\WINDOWS
+TEMP = C:\Users\NC32D~1.PIM\AppData\Local\Temp
+TMP = C:\Users\NC32D~1.PIM\AppData\Local\Temp
+UATDATA = C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+USERDNSDOMAIN = ORWELLG.LOCAL
+USERDOMAIN = ORWELLG
+USERDOMAIN_ROAMINGPROFILE = ORWELLG
+USERNAME = n.pimley
+USERPROFILE = C:\Users\n.pimley
+version = 1.0.0
+VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+windir = C:\WINDOWS
+
+11:03:56.697     1>Project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln" on node 1 (default targets).
+11:03:56.697     1>Initial Properties:
+                   ALLUSERSPROFILE = C:\ProgramData
+                   ANDROID_HOME = C:\Users\n.pimley\AppData\Local\Android\sdk
+                   APPDATA = C:\Users\n.pimley\AppData\Roaming
+                   AspNetConfiguration = Release
+                   ChocolateyInstall = C:\ProgramData\chocolatey
+                   ChocolateyLastPathUpdate = Tue Sep  5 12:12:57 2017
+                   CommonProgramFiles = C:\Program Files (x86)\Common Files
+                   CommonProgramW6432 = C:\Program Files\Common Files
+                   COMPUTERNAME = A00003
+                   ComSpec = C:\WINDOWS\system32\cmd.exe
+                   config = Release
+                   Configuration = Release
+                   CurrentSolutionConfigurationContents = <SolutionConfiguration>
+                     <ProjectConfiguration Project="{7C5D8ADC-1F45-4FB0-B4C0-4FD21ECD6681}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                     <ProjectConfiguration Project="{84A4EEE5-6AB9-41DF-9C01-7D631986EB2D}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                     <ProjectConfiguration Project="{F2F5A257-3830-4DF8-BF65-6F096DD0592D}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                   </SolutionConfiguration>
+                   FP_NO_HOST_CHECK = NO
+                   FrameworkSDKRoot = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\
+                   FSHARPINSTALLDIR = C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\
+                   GOROOT = C:\Go\
+                   HOMEDRIVE = U:
+                   HOMEPATH = \
+                   HOMESHARE = \\fileserver\users\n.pimley
+                   JAVA_HOME = C:\Program Files\Java\jdk1.8.0_144
+                   LOCALAPPDATA = C:\Users\n.pimley\AppData\Local
+                   LOGONSERVER = \\ORWE9-L-DOM03
+                   MSBuildBinPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+                   MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+                   MSBuildLoadMicrosoftTargetsReadOnly = true
+                   MSBuildNodeCount = 1
+                   MSBuildProgramFiles32 = C:\Program Files (x86)
+                   MSBuildProjectDefaultTargets = Build
+                   MSBuildProjectDirectory = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core
+                   MSBuildProjectDirectoryNoRoot = Users\n.pimley\source\repos\McKenziesPharmacy-core
+                   MSBuildProjectExtension = .metaproj
+                   MSBuildProjectFile = pharmacy.core.sln.metaproj
+                   MSBuildProjectFullPath = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln.metaproj
+                   MSBuildProjectName = pharmacy.core.sln
+                   MSBuildRuntimeVersion = 4.0.30319
+                   MSBuildStartupDirectory = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core
+                   MSBuildToolsPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+                   MSBuildToolsPath32 = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildToolsRoot = C:\Windows\Microsoft.NET\Framework\
+                   MSBuildToolsVersion = 4.0
+                   MSBuildUserExtensionsPath = C:\Users\n.pimley\AppData\Local\Microsoft\MSBuild
+                   nuget = nuget
+                   NUMBER_OF_PROCESSORS = 8
+                   OneDrive = C:\Users\n.pimley\OneDrive
+                   OS = Windows_NT
+                   Path = C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Git\cmd;C:\Program Files\Redis\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Amazon\AWSCLI\;C:\Program Files\Java\apache-maven-3.5.0\bin;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files\nodejs\;C:\Go\bin;C:\Program Files (x86)\Yarn\bin;C:\gradle\gradle-4.3.1\bin;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Users\n.pimley\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\n.pimley\AppData\Roaming\npm;C:\Users\n.pimley\source\repos\flutter\bin;C:\Users\n.pimley\AppData\Local\Programs\Fiddler;C:\Users\n.pimley\AppData\Local\Yarn\bin;C:\apache-maven\apache-maven-3.5.2\bin;C:\Program Files\Heroku\bin
+                   PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+                   Platform = Any CPU
+                   PROCESSOR_ARCHITECTURE = x86
+                   PROCESSOR_ARCHITEW6432 = AMD64
+                   PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+                   PROCESSOR_LEVEL = 6
+                   PROCESSOR_REVISION = 3c03
+                   ProgramData = C:\ProgramData
+                   ProgramFiles = C:\Program Files (x86)
+                   ProgramW6432 = C:\Program Files
+                   PROMPT = $P$G
+                   PSModulePath = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\;C:\Program Files\WindowsPowerShell\Modules\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\Storage\
+                   PUBLIC = C:\Users\Public
+                   SDK35ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\
+                   SDK40ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\
+                   SolutionDir = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\
+                   SolutionExt = .sln
+                   SolutionFileName = pharmacy.core.sln
+                   SolutionName = pharmacy.core
+                   SolutionPath = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln
+                   SystemDrive = C:
+                   SystemRoot = C:\WINDOWS
+                   TargetFrameworkVersion = v4.0
+                   TEMP = C:\Users\NC32D~1.PIM\AppData\Local\Temp
+                   TMP = C:\Users\NC32D~1.PIM\AppData\Local\Temp
+                   UATDATA = C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+                   USERDNSDOMAIN = ORWELLG.LOCAL
+                   USERDOMAIN = ORWELLG
+                   USERDOMAIN_ROAMINGPROFILE = ORWELLG
+                   USERNAME = n.pimley
+                   USERPROFILE = C:\Users\n.pimley
+                   VCTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v110\
+                   VCTargetsPath10 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\
+                   VCTargetsPath11 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+                   version = 1.0.0
+                   VisualStudioVersion = 11.0
+                   VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+                   VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+                   windir = C:\WINDOWS
+                   WindowsSDK80Path = 
+
+11:03:56.697     1>Initial Items:
+                   ProjectReference
+                       C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj.metaproj
+                           ToolsVersion = 4.0
+                           SkipNonexistentProjects = Build
+                           AdditionalProperties = Configuration=Release; Platform=Any CPU; VisualStudioVersion=11.0
+                           Configuration = Release
+                           Platform = AnyCPU
+                       C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj.metaproj
+                           ToolsVersion = 4.0
+                           SkipNonexistentProjects = Build
+                           AdditionalProperties = Configuration=Release; Platform=Any CPU; VisualStudioVersion=11.0
+                           Configuration = Release
+                           Platform = AnyCPU
+                       C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj.metaproj
+                           ToolsVersion = 4.0
+                           SkipNonexistentProjects = Build
+                           AdditionalProperties = Configuration=Release; Platform=Any CPU; VisualStudioVersion=11.0
+                           Configuration = Release
+                           Platform = AnyCPU
+
+11:03:56.697     1>Building with tools version "2.0".
+11:03:56.697     1>Target "ValidateSolutionConfiguration: (TargetId:2)" in file "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln.metaproj" from project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln" (entry point):
+                   Task "Error" skipped, due to false condition; (('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' != 'true')) was evaluated as (('<SolutionConfiguration>
+                     <ProjectConfiguration Project="{7C5D8ADC-1F45-4FB0-B4C0-4FD21ECD6681}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                     <ProjectConfiguration Project="{84A4EEE5-6AB9-41DF-9C01-7D631986EB2D}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                     <ProjectConfiguration Project="{F2F5A257-3830-4DF8-BF65-6F096DD0592D}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                   </SolutionConfiguration>' == '') and ('' != 'true')).
+                   Task "Warning" skipped, due to false condition; (('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' == 'true')) was evaluated as (('<SolutionConfiguration>
+                     <ProjectConfiguration Project="{7C5D8ADC-1F45-4FB0-B4C0-4FD21ECD6681}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                     <ProjectConfiguration Project="{84A4EEE5-6AB9-41DF-9C01-7D631986EB2D}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                     <ProjectConfiguration Project="{F2F5A257-3830-4DF8-BF65-6F096DD0592D}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                   </SolutionConfiguration>' == '') and ('' == 'true')).
+                   Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Message" (TaskId:2)
+                     Building solution configuration "Release|Any CPU". (TaskId:2)
+                   Done executing task "Message". (TaskId:2)
+11:03:56.718     1>Done building target "ValidateSolutionConfiguration" in project "pharmacy.core.sln".: (TargetId:2)
+11:03:56.718     1>Target "ValidateToolsVersions: (TargetId:3)" in file "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln.metaproj" from project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln" (entry point):
+                   Task "Error" skipped, due to false condition; ('$(MSBuildToolsVersion)' == '2.0' and ('$(ProjectToolsVersion)' != '2.0' and '$(ProjectToolsVersion)' != '')) was evaluated as ('4.0' == '2.0' and ('' != '2.0' and '' != '')).
+11:03:56.718     1>Done building target "ValidateToolsVersions" in project "pharmacy.core.sln".: (TargetId:3)
+11:03:56.718     1>Target "ValidateProjects: (TargetId:4)" in file "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln.metaproj" from project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln" (entry point):
+11:03:56.718     1>Done building target "ValidateProjects" in project "pharmacy.core.sln".: (TargetId:4)
+11:03:56.718     1>Target "Build: (TargetId:5)" in file "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln.metaproj" from project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln" (entry point):
+                   Using "MSBuild" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MSBuild" (TaskId:3)
+                     Global Properties: (TaskId:3)
+                       BuildingSolutionFile=true (TaskId:3)
+                       CurrentSolutionConfigurationContents=<SolutionConfiguration>
+                       <ProjectConfiguration Project="{7C5D8ADC-1F45-4FB0-B4C0-4FD21ECD6681}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                       <ProjectConfiguration Project="{84A4EEE5-6AB9-41DF-9C01-7D631986EB2D}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                       <ProjectConfiguration Project="{F2F5A257-3830-4DF8-BF65-6F096DD0592D}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                     </SolutionConfiguration> (TaskId:3)
+                       SolutionDir=C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\ (TaskId:3)
+                       SolutionExt=.sln (TaskId:3)
+                       SolutionFileName=pharmacy.core.sln (TaskId:3)
+                       SolutionName=pharmacy.core (TaskId:3)
+                       SolutionPath=C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln (TaskId:3)
+                     Additional Properties for project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj.metaproj": (TaskId:3)
+                       Configuration=Release (TaskId:3)
+                       Platform=Any CPU (TaskId:3)
+                       VisualStudioVersion=11.0 (TaskId:3)
+                     Additional Properties for project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj.metaproj": (TaskId:3)
+                       Configuration=Release (TaskId:3)
+                       Platform=Any CPU (TaskId:3)
+                       VisualStudioVersion=11.0 (TaskId:3)
+                     Additional Properties for project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj.metaproj": (TaskId:3)
+                       Configuration=Release (TaskId:3)
+                       Platform=Any CPU (TaskId:3)
+                       VisualStudioVersion=11.0 (TaskId:3)
+11:03:56.697     1>Project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln" (1) is building "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj.metaproj" (2) on node 1 (default targets).
+11:03:56.721     2>Initial Properties:
+                   ALLUSERSPROFILE = C:\ProgramData
+                   ANDROID_HOME = C:\Users\n.pimley\AppData\Local\Android\sdk
+                   APPDATA = C:\Users\n.pimley\AppData\Roaming
+                   AspNetConfiguration = Release
+                   ChocolateyInstall = C:\ProgramData\chocolatey
+                   ChocolateyLastPathUpdate = Tue Sep  5 12:12:57 2017
+                   CommonProgramFiles = C:\Program Files (x86)\Common Files
+                   CommonProgramW6432 = C:\Program Files\Common Files
+                   COMPUTERNAME = A00003
+                   ComSpec = C:\WINDOWS\system32\cmd.exe
+                   config = Release
+                   Configuration = Release
+                   CurrentSolutionConfigurationContents = <SolutionConfiguration>
+                     <ProjectConfiguration Project="{7C5D8ADC-1F45-4FB0-B4C0-4FD21ECD6681}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                     <ProjectConfiguration Project="{84A4EEE5-6AB9-41DF-9C01-7D631986EB2D}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                     <ProjectConfiguration Project="{F2F5A257-3830-4DF8-BF65-6F096DD0592D}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                   </SolutionConfiguration>
+                   FP_NO_HOST_CHECK = NO
+                   FrameworkSDKRoot = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\
+                   FSHARPINSTALLDIR = C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\
+                   GOROOT = C:\Go\
+                   HOMEDRIVE = U:
+                   HOMEPATH = \
+                   HOMESHARE = \\fileserver\users\n.pimley
+                   JAVA_HOME = C:\Program Files\Java\jdk1.8.0_144
+                   LOCALAPPDATA = C:\Users\n.pimley\AppData\Local
+                   LOGONSERVER = \\ORWE9-L-DOM03
+                   MSBuildBinPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+                   MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+                   MSBuildLastTaskResult = true
+                   MSBuildLoadMicrosoftTargetsReadOnly = true
+                   MSBuildNodeCount = 1
+                   MSBuildProgramFiles32 = C:\Program Files (x86)
+                   MSBuildProjectDefaultTargets = Build
+                   MSBuildProjectDirectory = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core
+                   MSBuildProjectDirectoryNoRoot = Users\n.pimley\source\repos\McKenziesPharmacy-core
+                   MSBuildProjectExtension = .metaproj
+                   MSBuildProjectFile = pharmacy.core.sln.metaproj
+                   MSBuildProjectFullPath = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln.metaproj
+                   MSBuildProjectName = pharmacy.core.sln
+                   MSBuildRuntimeVersion = 4.0.30319
+                   MSBuildStartupDirectory = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core
+                   MSBuildToolsPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+                   MSBuildToolsPath32 = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildToolsRoot = C:\Windows\Microsoft.NET\Framework\
+                   MSBuildToolsVersion = 4.0
+                   MSBuildUserExtensionsPath = C:\Users\n.pimley\AppData\Local\Microsoft\MSBuild
+                   nuget = nuget
+                   NUMBER_OF_PROCESSORS = 8
+                   OneDrive = C:\Users\n.pimley\OneDrive
+                   OS = Windows_NT
+                   Path = C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Git\cmd;C:\Program Files\Redis\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Amazon\AWSCLI\;C:\Program Files\Java\apache-maven-3.5.0\bin;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files\nodejs\;C:\Go\bin;C:\Program Files (x86)\Yarn\bin;C:\gradle\gradle-4.3.1\bin;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Users\n.pimley\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\n.pimley\AppData\Roaming\npm;C:\Users\n.pimley\source\repos\flutter\bin;C:\Users\n.pimley\AppData\Local\Programs\Fiddler;C:\Users\n.pimley\AppData\Local\Yarn\bin;C:\apache-maven\apache-maven-3.5.2\bin;C:\Program Files\Heroku\bin
+                   PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+                   Platform = Any CPU
+                   PROCESSOR_ARCHITECTURE = x86
+                   PROCESSOR_ARCHITEW6432 = AMD64
+                   PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+                   PROCESSOR_LEVEL = 6
+                   PROCESSOR_REVISION = 3c03
+                   ProgramData = C:\ProgramData
+                   ProgramFiles = C:\Program Files (x86)
+                   ProgramW6432 = C:\Program Files
+                   PROMPT = $P$G
+                   PSModulePath = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\;C:\Program Files\WindowsPowerShell\Modules\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\Storage\
+                   PUBLIC = C:\Users\Public
+                   SDK35ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\
+                   SDK40ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\
+                   SolutionDir = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\
+                   SolutionExt = .sln
+                   SolutionFileName = pharmacy.core.sln
+                   SolutionName = pharmacy.core
+                   SolutionPath = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln
+                   SystemDrive = C:
+                   SystemRoot = C:\WINDOWS
+                   TargetFrameworkVersion = v4.0
+                   TEMP = C:\Users\NC32D~1.PIM\AppData\Local\Temp
+                   TMP = C:\Users\NC32D~1.PIM\AppData\Local\Temp
+                   UATDATA = C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+                   USERDNSDOMAIN = ORWELLG.LOCAL
+                   USERDOMAIN = ORWELLG
+                   USERDOMAIN_ROAMINGPROFILE = ORWELLG
+                   USERNAME = n.pimley
+                   USERPROFILE = C:\Users\n.pimley
+                   VCTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v110\
+                   VCTargetsPath10 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\
+                   VCTargetsPath11 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+                   version = 1.0.0
+                   VisualStudioVersion = 11.0
+                   VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+                   VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+                   windir = C:\WINDOWS
+                   WindowsSDK80Path = 
+
+11:03:56.721     2>Building with tools version "4.0".
+11:03:56.721     2>Target "Build: (TargetId:6)" in project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj.metaproj" (entry point):
+                   Using "Warning" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Warning" (TaskId:4)
+11:03:56.722     2>C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj.metaproj : warning MSB4078: The project file "pharmacy.services\pharmacy.services.csproj" is not supported by MSBuild and cannot be built.
+                   Done executing task "Warning". (TaskId:4)
+11:03:56.722     2>Done building target "Build" in project "pharmacy.services.csproj.metaproj".: (TargetId:6)
+11:03:56.722     2>Done Building Project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj.metaproj" (default targets).
+11:03:56.697     1>Project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln" (1) is building "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj.metaproj" (3) on node 1 (default targets).
+11:03:57.602     3>Initial Properties:
+                   ALLUSERSPROFILE = C:\ProgramData
+                   ANDROID_HOME = C:\Users\n.pimley\AppData\Local\Android\sdk
+                   APPDATA = C:\Users\n.pimley\AppData\Roaming
+                   AspNetConfiguration = Release
+                   ChocolateyInstall = C:\ProgramData\chocolatey
+                   ChocolateyLastPathUpdate = Tue Sep  5 12:12:57 2017
+                   CommonProgramFiles = C:\Program Files (x86)\Common Files
+                   CommonProgramW6432 = C:\Program Files\Common Files
+                   COMPUTERNAME = A00003
+                   ComSpec = C:\WINDOWS\system32\cmd.exe
+                   config = Release
+                   Configuration = Release
+                   CurrentSolutionConfigurationContents = <SolutionConfiguration>
+                     <ProjectConfiguration Project="{7C5D8ADC-1F45-4FB0-B4C0-4FD21ECD6681}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                     <ProjectConfiguration Project="{84A4EEE5-6AB9-41DF-9C01-7D631986EB2D}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                     <ProjectConfiguration Project="{F2F5A257-3830-4DF8-BF65-6F096DD0592D}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                   </SolutionConfiguration>
+                   FP_NO_HOST_CHECK = NO
+                   FrameworkSDKRoot = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\
+                   FSHARPINSTALLDIR = C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\
+                   GOROOT = C:\Go\
+                   HOMEDRIVE = U:
+                   HOMEPATH = \
+                   HOMESHARE = \\fileserver\users\n.pimley
+                   JAVA_HOME = C:\Program Files\Java\jdk1.8.0_144
+                   LOCALAPPDATA = C:\Users\n.pimley\AppData\Local
+                   LOGONSERVER = \\ORWE9-L-DOM03
+                   MSBuildBinPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+                   MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+                   MSBuildLoadMicrosoftTargetsReadOnly = true
+                   MSBuildNodeCount = 1
+                   MSBuildProgramFiles32 = C:\Program Files (x86)
+                   MSBuildProjectDefaultTargets = Build
+                   MSBuildProjectDirectory = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core
+                   MSBuildProjectDirectoryNoRoot = Users\n.pimley\source\repos\McKenziesPharmacy-core
+                   MSBuildProjectExtension = .metaproj
+                   MSBuildProjectFile = pharmacy.core.sln.metaproj
+                   MSBuildProjectFullPath = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln.metaproj
+                   MSBuildProjectName = pharmacy.core.sln
+                   MSBuildRuntimeVersion = 4.0.30319
+                   MSBuildStartupDirectory = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core
+                   MSBuildToolsPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+                   MSBuildToolsPath32 = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildToolsRoot = C:\Windows\Microsoft.NET\Framework\
+                   MSBuildToolsVersion = 4.0
+                   MSBuildUserExtensionsPath = C:\Users\n.pimley\AppData\Local\Microsoft\MSBuild
+                   nuget = nuget
+                   NUMBER_OF_PROCESSORS = 8
+                   OneDrive = C:\Users\n.pimley\OneDrive
+                   OS = Windows_NT
+                   Path = C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Git\cmd;C:\Program Files\Redis\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Amazon\AWSCLI\;C:\Program Files\Java\apache-maven-3.5.0\bin;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files\nodejs\;C:\Go\bin;C:\Program Files (x86)\Yarn\bin;C:\gradle\gradle-4.3.1\bin;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Users\n.pimley\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\n.pimley\AppData\Roaming\npm;C:\Users\n.pimley\source\repos\flutter\bin;C:\Users\n.pimley\AppData\Local\Programs\Fiddler;C:\Users\n.pimley\AppData\Local\Yarn\bin;C:\apache-maven\apache-maven-3.5.2\bin;C:\Program Files\Heroku\bin
+                   PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+                   Platform = Any CPU
+                   PROCESSOR_ARCHITECTURE = x86
+                   PROCESSOR_ARCHITEW6432 = AMD64
+                   PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+                   PROCESSOR_LEVEL = 6
+                   PROCESSOR_REVISION = 3c03
+                   ProgramData = C:\ProgramData
+                   ProgramFiles = C:\Program Files (x86)
+                   ProgramW6432 = C:\Program Files
+                   PROMPT = $P$G
+                   PSModulePath = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\;C:\Program Files\WindowsPowerShell\Modules\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\Storage\
+                   PUBLIC = C:\Users\Public
+                   SDK35ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\
+                   SDK40ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\
+                   SolutionDir = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\
+                   SolutionExt = .sln
+                   SolutionFileName = pharmacy.core.sln
+                   SolutionName = pharmacy.core
+                   SolutionPath = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln
+                   SystemDrive = C:
+                   SystemRoot = C:\WINDOWS
+                   TargetFrameworkVersion = v4.0
+                   TEMP = C:\Users\NC32D~1.PIM\AppData\Local\Temp
+                   TMP = C:\Users\NC32D~1.PIM\AppData\Local\Temp
+                   UATDATA = C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+                   USERDNSDOMAIN = ORWELLG.LOCAL
+                   USERDOMAIN = ORWELLG
+                   USERDOMAIN_ROAMINGPROFILE = ORWELLG
+                   USERNAME = n.pimley
+                   USERPROFILE = C:\Users\n.pimley
+                   VCTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v110\
+                   VCTargetsPath10 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\
+                   VCTargetsPath11 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+                   version = 1.0.0
+                   VisualStudioVersion = 11.0
+                   VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+                   VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+                   windir = C:\WINDOWS
+                   WindowsSDK80Path = 
+
+11:03:57.602     3>Building with tools version "4.0".
+11:03:57.602     3>Target "Build: (TargetId:7)" in project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj.metaproj" (entry point):
+                   Task "Warning" (TaskId:5)
+11:03:57.602     3>C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj.metaproj : warning MSB4078: The project file "pharmacy.repositories\pharmacy.repositories.csproj" is not supported by MSBuild and cannot be built.
+                   Done executing task "Warning". (TaskId:5)
+11:03:57.603     3>Done building target "Build" in project "pharmacy.repositories.csproj.metaproj".: (TargetId:7)
+11:03:57.603     3>Done Building Project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj.metaproj" (default targets).
+11:03:56.697     1>Project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln" (1) is building "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj.metaproj" (4) on node 1 (default targets).
+11:03:57.603     4>Initial Properties:
+                   ALLUSERSPROFILE = C:\ProgramData
+                   ANDROID_HOME = C:\Users\n.pimley\AppData\Local\Android\sdk
+                   APPDATA = C:\Users\n.pimley\AppData\Roaming
+                   AspNetConfiguration = Release
+                   ChocolateyInstall = C:\ProgramData\chocolatey
+                   ChocolateyLastPathUpdate = Tue Sep  5 12:12:57 2017
+                   CommonProgramFiles = C:\Program Files (x86)\Common Files
+                   CommonProgramW6432 = C:\Program Files\Common Files
+                   COMPUTERNAME = A00003
+                   ComSpec = C:\WINDOWS\system32\cmd.exe
+                   config = Release
+                   Configuration = Release
+                   CurrentSolutionConfigurationContents = <SolutionConfiguration>
+                     <ProjectConfiguration Project="{7C5D8ADC-1F45-4FB0-B4C0-4FD21ECD6681}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                     <ProjectConfiguration Project="{84A4EEE5-6AB9-41DF-9C01-7D631986EB2D}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                     <ProjectConfiguration Project="{F2F5A257-3830-4DF8-BF65-6F096DD0592D}" AbsolutePath="C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+                   </SolutionConfiguration>
+                   FP_NO_HOST_CHECK = NO
+                   FrameworkSDKRoot = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\
+                   FSHARPINSTALLDIR = C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\
+                   GOROOT = C:\Go\
+                   HOMEDRIVE = U:
+                   HOMEPATH = \
+                   HOMESHARE = \\fileserver\users\n.pimley
+                   JAVA_HOME = C:\Program Files\Java\jdk1.8.0_144
+                   LOCALAPPDATA = C:\Users\n.pimley\AppData\Local
+                   LOGONSERVER = \\ORWE9-L-DOM03
+                   MSBuildBinPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+                   MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+                   MSBuildLastTaskResult = true
+                   MSBuildLoadMicrosoftTargetsReadOnly = true
+                   MSBuildNodeCount = 1
+                   MSBuildProgramFiles32 = C:\Program Files (x86)
+                   MSBuildProjectDefaultTargets = Build
+                   MSBuildProjectDirectory = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core
+                   MSBuildProjectDirectoryNoRoot = Users\n.pimley\source\repos\McKenziesPharmacy-core
+                   MSBuildProjectExtension = .metaproj
+                   MSBuildProjectFile = pharmacy.core.sln.metaproj
+                   MSBuildProjectFullPath = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln.metaproj
+                   MSBuildProjectName = pharmacy.core.sln
+                   MSBuildRuntimeVersion = 4.0.30319
+                   MSBuildStartupDirectory = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core
+                   MSBuildToolsPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+                   MSBuildToolsPath32 = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildToolsRoot = C:\Windows\Microsoft.NET\Framework\
+                   MSBuildToolsVersion = 4.0
+                   MSBuildUserExtensionsPath = C:\Users\n.pimley\AppData\Local\Microsoft\MSBuild
+                   nuget = nuget
+                   NUMBER_OF_PROCESSORS = 8
+                   OneDrive = C:\Users\n.pimley\OneDrive
+                   OS = Windows_NT
+                   Path = C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Symantec.cloud\PlatformAgent\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Git\cmd;C:\Program Files\Redis\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Amazon\AWSCLI\;C:\Program Files\Java\apache-maven-3.5.0\bin;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files\nodejs\;C:\Go\bin;C:\Program Files (x86)\Yarn\bin;C:\gradle\gradle-4.3.1\bin;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Users\n.pimley\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\n.pimley\AppData\Roaming\npm;C:\Users\n.pimley\source\repos\flutter\bin;C:\Users\n.pimley\AppData\Local\Programs\Fiddler;C:\Users\n.pimley\AppData\Local\Yarn\bin;C:\apache-maven\apache-maven-3.5.2\bin;C:\Program Files\Heroku\bin
+                   PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+                   Platform = Any CPU
+                   PROCESSOR_ARCHITECTURE = x86
+                   PROCESSOR_ARCHITEW6432 = AMD64
+                   PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+                   PROCESSOR_LEVEL = 6
+                   PROCESSOR_REVISION = 3c03
+                   ProgramData = C:\ProgramData
+                   ProgramFiles = C:\Program Files (x86)
+                   ProgramW6432 = C:\Program Files
+                   PROMPT = $P$G
+                   PSModulePath = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\;C:\Program Files\WindowsPowerShell\Modules\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\Storage\
+                   PUBLIC = C:\Users\Public
+                   SDK35ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\
+                   SDK40ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\
+                   SolutionDir = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\
+                   SolutionExt = .sln
+                   SolutionFileName = pharmacy.core.sln
+                   SolutionName = pharmacy.core
+                   SolutionPath = C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln
+                   SystemDrive = C:
+                   SystemRoot = C:\WINDOWS
+                   TargetFrameworkVersion = v4.0
+                   TEMP = C:\Users\NC32D~1.PIM\AppData\Local\Temp
+                   TMP = C:\Users\NC32D~1.PIM\AppData\Local\Temp
+                   UATDATA = C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+                   USERDNSDOMAIN = ORWELLG.LOCAL
+                   USERDOMAIN = ORWELLG
+                   USERDOMAIN_ROAMINGPROFILE = ORWELLG
+                   USERNAME = n.pimley
+                   USERPROFILE = C:\Users\n.pimley
+                   VCTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v110\
+                   VCTargetsPath10 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\
+                   VCTargetsPath11 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+                   version = 1.0.0
+                   VisualStudioVersion = 11.0
+                   VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+                   VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+                   windir = C:\WINDOWS
+                   WindowsSDK80Path = 
+
+11:03:57.603     4>Building with tools version "4.0".
+11:03:57.604     4>Target "Build: (TargetId:8)" in project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj.metaproj" (entry point):
+                   Task "Warning" (TaskId:6)
+11:03:57.604     4>C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj.metaproj : warning MSB4078: The project file "pharmacy.models\pharmacy.models.csproj" is not supported by MSBuild and cannot be built.
+                   Done executing task "Warning". (TaskId:6)
+11:03:57.604     4>Done building target "Build" in project "pharmacy.models.csproj.metaproj".: (TargetId:8)
+11:03:57.604     4>Done Building Project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj.metaproj" (default targets).
+11:03:57.605     1>Done executing task "MSBuild". (TaskId:3)
+11:03:57.605     1>Done building target "Build" in project "pharmacy.core.sln".: (TargetId:5)
+11:03:57.605     1>Done Building Project "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln" (default targets).
+
+Project Performance Summary:
+        1 ms  C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj.metaproj   1 calls
+        1 ms  C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj.metaproj   1 calls
+        1 ms  C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj.metaproj   1 calls
+      908 ms  C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln   1 calls
+
+Target Performance Summary:
+        0 ms  ValidateProjects                           1 calls
+        0 ms  ValidateToolsVersions                      1 calls
+       21 ms  ValidateSolutionConfiguration              1 calls
+      889 ms  Build                                      4 calls
+
+Task Performance Summary:
+        1 ms  Message                                    1 calls
+        1 ms  Warning                                    3 calls
+      887 ms  MSBuild                                    1 calls
+
+Build succeeded.
+
+                   "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln" (default target) (1) ->
+                   "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj.metaproj" (default target) (2) ->
+                   (Build target) -> 
+                     C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.services\pharmacy.services.csproj.metaproj : warning MSB4078: The project file "pharmacy.services\pharmacy.services.csproj" is not supported by MSBuild and cannot be built.
+
+
+                   "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln" (default target) (1) ->
+                   "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj.metaproj" (default target) (3) ->
+                     C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.repositories\pharmacy.repositories.csproj.metaproj : warning MSB4078: The project file "pharmacy.repositories\pharmacy.repositories.csproj" is not supported by MSBuild and cannot be built.
+
+
+                   "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.core.sln" (default target) (1) ->
+                   "C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj.metaproj" (default target) (4) ->
+                     C:\Users\n.pimley\source\repos\McKenziesPharmacy-core\pharmacy.models\pharmacy.models.csproj.metaproj : warning MSB4078: The project file "pharmacy.models\pharmacy.models.csproj" is not supported by MSBuild and cannot be built.
+
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
