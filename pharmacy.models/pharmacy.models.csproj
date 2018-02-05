@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <AssemblyName>pharmacymodels</AssemblyName>
+    <AssemblyName>Pharmacy.Models</AssemblyName>
     <RootNamespace>Pharmacy.Models</RootNamespace>
   </PropertyGroup>
 

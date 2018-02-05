@@ -10,6 +10,18 @@
     <releaseNotes>Initial release for testing.</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags></tags>
-    <dependencies />
+    <dependencies>
+		<dependency id="Microsoft.EntityFrameworkCore" version="2.0.1" />
+		<dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="2.0.1" />
+		<dependency id="Microsoft.VisualStudio.Web.CodeGeneration.Design" v="2.0.2" />
+		<dependency id="Auth0.AuthenticationApi" version="4.3.1" />
+		<dependency id="Auth0.ManagementApi" Version="4.10.1" />
+		<dependency id="AutoMapper" version="6.2.2" />
+		<dependency id="getAddress.Sdk" version="1.2.3" />
+		<dependency id="NLog.Web.AspNetCore" version="4.4.1" />
+		<dependency id="Sendgrid" version="9.9.0" />
+		<dependency id="Twilio.AspNet.Core" version="5.8.3" />
+			
+	</dependencies>
   </metadata>
 </package>
