@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <AssemblyName>Pharmacy.services</AssemblyName>
     <RootNamespace>Pharmacy.Services</RootNamespace>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Neil Pimley</Authors>
+    <Company>McKenzies Pharmacy</Company>
+    <Description>Custom package for McKenzies Pharmacy prescription re-ordering application</Description>
   </PropertyGroup>
 
   <ItemGroup>

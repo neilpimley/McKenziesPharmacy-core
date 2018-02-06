@@ -14,10 +14,17 @@ if "%nuget%" == "" (
 	set nuget=nuget
 )
 
-%WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild pharmacy.core.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
+REM Build
+dotnet publish --configuration "%config%"
 
+
+REM Package
 mkdir Build
 mkdir Build\lib
-mkdir Build\lib\net40
+mkdir Build\lib\netcoreapp2.0
 
-%nuget% pack "mckenzies.pharmacy.core.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
+copy pharmacy.models\bin\%config%\netcoreapp2.0\pharmacymodels.dll Build\lib\netcoreapp2.0
+copy pharmacy.repositories\bin\%config%\netcoreapp2.0\pharmacyrepositories.dll Build\lib\netcoreapp2.0
+copy pharmacy.services\bin\%config%\netcoreapp2.0\pharmacyservices.dll Build\lib\netcoreapp2.0
+
+call %nuget% pack "mckenzies.pharmacy.core.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"

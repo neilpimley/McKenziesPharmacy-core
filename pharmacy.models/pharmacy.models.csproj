@@ -4,6 +4,9 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <AssemblyName>Pharmacy.Models</AssemblyName>
     <RootNamespace>Pharmacy.Models</RootNamespace>
+    <Authors>Neil Pimley</Authors>
+    <Company>McKenzies Pharmacy</Company>
+    <Description>Custom package for McKenzies Pharmacy prescription re-ordering application</Description>
   </PropertyGroup>
 
   <ItemGroup>
