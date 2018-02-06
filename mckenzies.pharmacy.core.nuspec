@@ -23,4 +23,12 @@
 		<dependency id="Twilio.AspNet.Core" version="5.8.3" />
 	</dependencies>
   </metadata>
+  <files>
+    <file src=".git\*.*" exclude="*.*" />
+    <file src=".vs\*.*" exclude="*.*" />
+	<file src="**\*.cs" exclude="*.*" />
+	<file src="pharmacy.models\*.*" exclude="*.*" />
+	<file src="pharmacy.repositories\*.*" exclude="*.*" />
+	<file src="pharmacy.services\*.*" exclude="*.*" />
+  </files>
 </package>
