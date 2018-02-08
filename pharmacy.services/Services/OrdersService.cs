@@ -82,7 +82,7 @@ namespace Pharmacy.Services
             logger.Info("GetOrders - CustomerId: {0}", customerId);
             var customer = await _customerService.GetCustomer(customerId);
             // don't get the current order
-            var _orders = _unitOfWork.OrderRepository
+            var _orders = await _unitOfWork.OrderRepository
                 .Get(o => o.CustomerId == customerId 
                 && o.OrderStatus != (int)Status.Inbasket, 
                     o => o.OrderByDescending(d => d.OrderDate));
