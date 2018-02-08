@@ -16,7 +16,7 @@ if "%nuget%" == "" (
 
 REM Build
 dotnet build --configuration "%config%"
-
-dotnet pack pharmacy.models/pharmacy.models.csproj --configuration "%config%"
-dotnet pack pharmacy.repositories/pharmacy.repositories.csproj --configuration "%config%"
-dotnet pack pharmacy.services/pharmacy.services.csproj --configuration "%config%"
+ 
+dotnet pack pharmacy.models/pharmacy.models.csproj --configuration "%config%" --include-symbols
+dotnet pack pharmacy.repositories/pharmacy.repositories.csproj --configuration "%config%" --include-symbols
+dotnet pack pharmacy.services/pharmacy.services.csproj --configuration "%config%" --include-symbols
