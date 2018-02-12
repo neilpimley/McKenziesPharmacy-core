@@ -2,6 +2,7 @@
 using Pharmacy.Services.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using getAddress.Sdk;
@@ -36,6 +37,7 @@ namespace Pharmacy.Services
             }
             catch (Exception ex)
             {
+                Trace.TraceError(ex.Message);
                 logger.Error("GetShops - Error: {0}", ex.Message);
                 throw new DataRetrieverException(typeof(Shop).Name);
             }
@@ -49,6 +51,7 @@ namespace Pharmacy.Services
             }
             catch (Exception ex)
             {
+                Trace.TraceError(ex.Message);
                 logger.Error("GetTitles - Error: {0}", ex.Message);
                 throw new DataRetrieverException(typeof(Title).Name);
             }
@@ -62,6 +65,7 @@ namespace Pharmacy.Services
             }
             catch (Exception ex)
             {
+                Trace.TraceError(ex.Message);
                 logger.Error("GetPractices - Error: {0}", ex.Message);
                 throw new DataRetrieverException(typeof(Practice).Name);
             }
@@ -75,6 +79,7 @@ namespace Pharmacy.Services
             }
             catch (Exception ex)
             {
+                Trace.TraceError(ex.Message);
                 logger.Error("GetDoctors - Error: {0}", ex.Message);
                 throw new DataRetrieverException(typeof(Doctor).Name);
             }
@@ -88,6 +93,7 @@ namespace Pharmacy.Services
             }
             catch (Exception ex)
             {
+                Trace.TraceError(ex.Message);
                 logger.Error("GetShops - Error: {0}", ex.Message);
                 throw new DataRetrieverException("Shops");
             }
@@ -122,6 +128,7 @@ namespace Pharmacy.Services
                 }
                 catch (Exception ex)
                 {
+                    Trace.TraceError(ex.Message);
                     logger.Error("GetAddressesByPostcode failed for '{0}'. Error: {1}", postCode, ex.Message );
                     throw new ApiConnectionException("GetPostcodeApi");
                 }
