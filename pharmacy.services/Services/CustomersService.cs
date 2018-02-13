@@ -100,8 +100,8 @@ namespace Pharmacy.Services
             try
             {
                 await _unitOfWork.SaveAsync();
-                await UpdateUserMetaData(customer);
                 await _emailService.SendRegisterConfirmation(customer);
+                await UpdateUserMetaData(customer);
             }
             catch (Exception ex)
             {
@@ -167,8 +167,7 @@ namespace Pharmacy.Services
                 client_id = _auth0ClientId,
                 client_secret = _authClientSecret,
                 audience = $"https://{_auth0Domain}/api/v2/",
-                grant_type = "client_credentials",
-                token_endpoint_auth_method = "client_secret_post"
+                grant_type = "client_credentials"
             });
 
             var content = new StringContent(payload, Encoding.UTF8, "application/json");
@@ -176,9 +175,6 @@ namespace Pharmacy.Services
 
             var msg = await stringTask;
             var result = await msg.Content.ReadAsStringAsync();
-            // TODO find a working method
-            // fails with "error":"unauthorized_client","error_description":"Grant type 'client_credentials' not allowed for the client.","error_uri":"https://auth0.com/docs/clients/client-grant-types"}
-
 
             var token = JsonConvert.DeserializeObject<dynamic>(result);
 
@@ -208,8 +204,6 @@ namespace Pharmacy.Services
                 logger.Info("Updating user meta_data in Auth0 failed: {0}", ex.Message);
             }
         }
-
-       
 
         private async Task<List<string>> ValidateCustomer(CustomerPoco customer)
         {
