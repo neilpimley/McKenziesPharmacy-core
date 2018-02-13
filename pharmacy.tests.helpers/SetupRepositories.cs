@@ -79,7 +79,7 @@ namespace pharmacy.tests.helpers
                 .Callback(new Action<Order>(order =>
                 {
                     var old = orders.Find(a => a.OrderId == order.OrderId);
-                    oldOrder = order;
+                    //oldOrder = order;
                 }));
 
             // Return mock implementation object

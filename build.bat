@@ -17,12 +17,7 @@ if "%nuget%" == "" (
 REM Build
 dotnet build --configuration "%config%"
 
-::if config == Debug {
-	dotnet pack pharmacy.models/pharmacy.models.csproj --configuration "%config%" --include-symbols --include-source 
-	dotnet pack pharmacy.repositories/pharmacy.repositories.csproj --configuration "%config%" --include-symbols --include-source 
-	dotnet pack pharmacy.services/pharmacy.services.csproj --configuration "%config%" --include-symbols --include-source 
-::} else {
-::	dotnet pack pharmacy.models/pharmacy.models.csproj --configuration "%config%" 
-::	dotnet pack pharmacy.repositories/pharmacy.repositories.csproj --configuration "%config%" 
-::	dotnet pack pharmacy.services/pharmacy.services.csproj --configuration "%config%" 
-::}
+
+dotnet pack pharmacy.models/pharmacy.models.csproj --configuration "%config%" --include-symbols --include-source 
+dotnet pack pharmacy.repositories/pharmacy.repositories.csproj --configuration "%config%" --include-symbols --include-source 
+dotnet pack pharmacy.services/pharmacy.services.csproj --configuration "%config%" --include-symbols --include-source 
