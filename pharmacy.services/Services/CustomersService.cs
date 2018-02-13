@@ -100,17 +100,18 @@ namespace Pharmacy.Services
             try
             {
                 await _unitOfWork.SaveAsync();
-                await _emailService.SendRegisterConfirmation(customer);
                 await UpdateUserMetaData(customer);
+                // Title, Shop and Doctor needed for email
+                customer.Title = await _unitOfWork.TitleRepository.GetByID(_customer.TitleId);
+                customer.Shop = await _unitOfWork.ShopRepository.GetByID(_customer.ShopId);
+                customer.Doctor = await _unitOfWork.DoctorRepository.GetByID(_customer.DoctorId);
+                await _emailService.SendRegisterConfirmation(customer);
             }
             catch (Exception ex)
             {
                 logger.Error("RegisterCustomer - {0}", ex.Message);
                 throw new Exception(ex.Message);
             }
-            customer.Title = await _unitOfWork.TitleRepository.GetByID(_customer.TitleId);
-            customer.Shop = await _unitOfWork.ShopRepository.GetByID(_customer.ShopId);
-            customer.Doctor = await _unitOfWork.DoctorRepository.GetByID(_customer.DoctorId);
             return customer;
         }
 
