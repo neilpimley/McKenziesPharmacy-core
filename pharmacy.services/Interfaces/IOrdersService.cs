@@ -16,6 +16,6 @@ namespace Pharmacy.Services.Interfaces
         Task SubmitOrder(OrderPoco order);
         Task<OrderLine> AddToOrder(OrderLine orderLine);
         Task DeleteFromOrder(OrderLine orderLine);
-        
+        Task DeleteAllFromOrder(Guid orderId);
     }
 }

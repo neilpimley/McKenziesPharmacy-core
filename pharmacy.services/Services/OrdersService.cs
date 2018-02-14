@@ -207,7 +207,29 @@ namespace Pharmacy.Services
             }
         }
 
+        public async Task DeleteAllFromOrder(Guid orderId)
+        {
+            logger.Info("DeleteAllFromOrder - OrderId: {0}", orderId);
+            var orderLines = await _unitOfWork.OrderLineRepository.Get(o => o.OrderId == orderId);
+            foreach (var orderLine in orderLines)
+            {
+                _unitOfWork.OrderLineRepository.Delete(orderLine.OrderId);
+            }
+            
+            try
+            {
+                await _unitOfWork.SaveAsync();
+                logger.Info("DeleteAllFromOrder - Success");
+            }
+            catch (Exception ex)
+            {
+                logger.Error("DeleteAllFromOrder - {0}", ex.Message);
+                throw new Exception(ex.Message);
+            }
+        }
 
-        
+
+
+
     }
 }
