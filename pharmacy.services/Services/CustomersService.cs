@@ -12,10 +12,6 @@ using Pharmacy.Repositories.Interfaces;
 using Pharmacy.Services.Interfaces;
 using Pharmacy.Models;
 using Microsoft.Extensions.Options;
-using Auth0.AuthenticationApi;
-using Auth0.AuthenticationApi.Models;
-using Auth0.ManagementApi;
-using Auth0.ManagementApi.Models;
 using Newtonsoft.Json;
 
 namespace Pharmacy.Services
@@ -185,9 +181,15 @@ namespace Pharmacy.Services
         private async Task UpdateUserMetaData(CustomerPoco customer)
         {
             var token = await GetToken();
-            var client = new ManagementApiClient(token, new Uri($"https://{_auth0Domain}"));
-            var request = new UserUpdateRequest {
-                UserMetadata =
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(
+                new MediaTypeWithQualityHeaderValue("application/json"));
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            string payload = JsonConvert.SerializeObject(new
+            {
+                user_metadata = new
                 {
                     customer_id = customer.CustomerId,
                     address_id = customer.AddressId,
@@ -195,10 +197,19 @@ namespace Pharmacy.Services
                     shop_id = customer.ShopId,
                     signed_up = true
                 }
+            });
+
+            var content = new StringContent(payload, Encoding.UTF8, "application/json");
+
+            var request = new HttpRequestMessage(new HttpMethod("PATCH"),
+                $"https://{_auth0Domain}/api/v2/users/{customer.UserId}")
+            {
+                Content = content
             };
+
             try
             {
-                await client.Users.UpdateAsync(customer.UserId, request);
+                await client.SendAsync(request);
             }
             catch (Exception ex)
             {
