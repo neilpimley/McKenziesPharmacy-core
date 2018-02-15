@@ -10,5 +10,4 @@
     Collected = 7,
     NotCollected = 8,
     MissingItems = 9
-
 };

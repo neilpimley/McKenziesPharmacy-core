@@ -9,5 +9,6 @@ namespace Pharmacy.Models.Pocos
         public bool SmsReminder { get; set; }
         public bool EmailReminder { get; set; }
 
+        public IEnumerable<OrderLine> OrderLines { get; set; }
     }
 }
